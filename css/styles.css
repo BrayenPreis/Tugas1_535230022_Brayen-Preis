@@ -1,0 +1,122 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#sideNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #681616;
+  color: #fff;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px; 
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  background-color: #ffffff;
+}
+
+.img-profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fdc305; 
+  padding: 3px; 
+}
+
+.resume-section {
+  padding: 60px 0;
+  margin-left: 250px; 
+}
+
+.resume-section h1, 
+.resume-section h2, 
+.resume-section h3 {
+  font-weight: 700;
+  color: #343a40;
+}
+
+.resume-section .text-primary {
+  color: #081e35 !important;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.resume-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+hr.m-0 {
+  margin: 0;
+  border: 1px solid #ddd;
+}
+
+.dev-icons {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.list-inline-item {
+  margin-right: 15px;
+}
+
+.resume-section p {
+  font-size: 1rem;
+  color: #212529;
+}
+
+@media (max-width: 992px) {
+  #sideNav {
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+
+  .resume-section {
+      margin-left: 0;
+  }
+}
